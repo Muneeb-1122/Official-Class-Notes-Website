@@ -440,27 +440,6 @@ input::placeholder {
   }
 }
 
-
-/* 
-@media (max-width: 768px) {
-  .image-section {
-    display: none;
-  }
-  #enroll-container {
-    margin: 1rem 1rem 2rem 1rem;
-    padding: 2rem 1rem 2rem 1rem;
-  }
-  .form-section {
-    width: 100%;
-    gap: 15px;
-  }
-  input {
-    padding: 0.5rem 0.1rem;
-  }
-} */
-
-/* complete the enroll section with responsive part */
-
 /* contact-us */
 
 #contact-us {
@@ -472,7 +451,7 @@ input::placeholder {
 #left-contact {
   width: 55%;
   height: 100%;
-  justify-content: center;
+  align-items: start;
 }
 #top-left-contact {
   align-items: start;
