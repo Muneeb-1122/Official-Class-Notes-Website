@@ -325,9 +325,10 @@ span {
   background-color: #f0f8ff;
   border-radius: 50px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 1px solid black;
+  border: 1px solid var(--bdr-clr);
   margin: 2rem 3rem;
-  padding: 1rem 2rem;justify-content: space-between;
+  padding: 1rem 2rem;
+  /* justify-content: space-between; */
 
 }
 
@@ -629,8 +630,12 @@ footer li {
   border-radius: 50px;
   font-size: 35px;
 }
+ 
+.social-icons-text d-flex-c .icon i {
+  color: #333;
+}
 
-.icon i {
+footer .icon i {
   color: white;
   transition: .3s ease-in-out linear;
 }
